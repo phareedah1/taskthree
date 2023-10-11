@@ -197,26 +197,26 @@ body{
 
     .flower{
         position: relative;
-        top: 0.3px;
+        top:2px;
         font-size: 6px;
         line-height: 7px;
     }
 
     .gab{
         font-size: 15px;
-        line-height: 12px;
+        line-height: 17px;
     }
 
     .money{
         position: relative;
-        bottom: 10px;
+        top:10px;
         font-size: 20px;
     }
 
     .button{
         position: relative;
-        bottom: 1px;
-        height: 30px;
+        top:15px;
+        height: 20px;
         width: 100px;
     }
 }
