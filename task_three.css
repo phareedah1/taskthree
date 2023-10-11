@@ -92,7 +92,7 @@ body{
 
 
 
-@media(max-width:991px){
+/* @media(max-width:991px){
     .img{
         width:200px;
         height:340px;
@@ -127,6 +127,16 @@ body{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px){
     .img{
         width:200px;
@@ -160,40 +170,53 @@ body{
         height: 60px;
         width:90px;
     }
-}
+} */
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 450px){
+    .perfume{
+        font-size: 7px;
+    }
     .img{
-        width:200px;
-        height:340px;
+        width:140px;
+        height:220px;
     }
 
     .flexbox{
-        width:160px;
-        height:300px;
+        width:100px;
+        height:180px;
     }
 
     .flower{
-        font-size: 10px;
-        line-height: 20px;
+        position: relative;
+        top: 0.3px;
+        font-size: 6px;
+        line-height: 7px;
     }
 
     .gab{
-        font-size: 30px;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 12px;
     }
 
     .money{
         position: relative;
-        bottom: 35px;
-        font-size: 30px;
+        bottom: 10px;
+        font-size: 20px;
     }
 
     .button{
         position: relative;
-        bottom: 20px;
-        height: 60px;
-        width: 90px;
+        bottom: 1px;
+        height: 30px;
+        width: 100px;
     }
 }
