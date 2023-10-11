@@ -27,7 +27,7 @@ body{
     display: flex;
     height: 440px;
     width: 330px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .flexbox{
@@ -36,7 +36,7 @@ body{
     flex-direction: column;
     line-height: 0.1px;
     padding: 20px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 5px 5px 0px;
 }
 
 
