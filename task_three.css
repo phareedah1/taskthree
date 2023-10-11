@@ -1,0 +1,199 @@
+body{
+    background-color: #f3eae3;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+/* .flexbox{
+    width: 100px;
+    height: 200px;
+} */
+
+.first{
+    margin-top: 80px;
+    width: 300px;
+    height: 400px; 
+    border-top: 10px;
+}
+
+.img{
+    display: flex;
+    height: 440px;
+    width: 330px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.flexbox{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1px;
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+.gab{
+    font-size: 45px;
+    line-height: 35px;
+}
+
+.floral{
+    color:#95969b;
+}
+.flower{
+    line-height: 25px;
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+}
+
+.perfume{
+    
+}
+.money{
+    position: relative;
+    bottom: 40px;
+    color: #3f8169;
+    font-size: 40px;
+}
+
+.button{
+    position: relative;
+    bottom: 40px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .img{
+        width:200px;
+        height:340px;
+    }
+
+    .flexbox{
+        width:160px;
+        height:300px;
+    }
+
+    .flower{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .gab{
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .money{
+        position: relative;
+        bottom: 35px;
+        font-size: 30px;
+    }
+
+    .button{
+        position: relative;
+        bottom: 50px;
+        height: 60px;
+        width:90px;
+    }
+}
+
+@media (max-width: 768px){
+    .img{
+        width:200px;
+        height:340px;
+    }
+
+    .flexbox{
+        width:160px;
+        height:300px;
+    }
+
+    .flower{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .gab{
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .money{
+        position: relative;
+        bottom: 35px;
+        font-size: 30px;
+    }
+
+    .button{
+        position: relative;
+        bottom: 20px;
+        height: 60px;
+        width:90px;
+    }
+}
+
+
+@media (max-width: 450px){
+    .img{
+        width:200px;
+        height:340px;
+    }
+
+    .flexbox{
+        width:160px;
+        height:300px;
+    }
+
+    .flower{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .gab{
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .money{
+        position: relative;
+        bottom: 35px;
+        font-size: 30px;
+    }
+
+    .button{
+        position: relative;
+        bottom: 20px;
+        height: 60px;
+        width: 90px;
+    }
+}
