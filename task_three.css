@@ -91,16 +91,42 @@ body{
 @media (max-width: 450px){
     .container{
         flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        border: 100px;
     }
     .img{
         display: none;
     }
     .img1{
-        width:80%;
-        width: 340px;
+        width: 300px;
+        height: 200px;
         display: flex;
         position: relative;
-        top: 80px;
+        bottom: 50px;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .gab{
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .flexbox{
+        position: relative;
+        bottom: 130px;
+        height: 330px;
+        width: 260px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .floral{
+        font-size: 15px;
+    }
+    .button{
+        position: relative;
+        bottom: 30px;
+        border-radius: 5px;
+        align-self: center;
+        height: 33px;
+        width: 220px;
     }
 }
 
@@ -124,11 +150,6 @@ body{
         line-height: 7px;
     }
 
-    .gab{
-        font-size: 15px;
-        line-height: 17px;
-    }
-
     .money{
         position: relative;
         top:10px;
@@ -141,7 +162,7 @@ body{
         height: 20px;
         width: 100px;
     } */
-}
+
 
 
 
