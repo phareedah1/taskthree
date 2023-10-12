@@ -72,7 +72,76 @@ body{
     align-self: center;
 }
 
+.img1{
+    display: none;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px){
+    .container{
+        flex-direction: column;
+    }
+    .img{
+        display: none;
+    }
+    .img1{
+        width:80%;
+        width: 340px;
+        display: flex;
+        position: relative;
+        top: 80px;
+    }
+}
+
+    /* .perfume{
+        font-size: 7px;
+    }
+    .img{
+        width:140px;
+        height:220px;
+    }
+
+    .flexbox{
+        width:100px;
+        height:180px;
+    }
+
+    .flower{
+        position: relative;
+        top:2px;
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .gab{
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .money{
+        position: relative;
+        top:10px;
+        font-size: 20px;
+    }
+
+    .button{
+        position: relative;
+        top:15px;
+        height: 20px;
+        width: 100px;
+    } */
+}
 
 
 
@@ -171,52 +240,3 @@ body{
         width:90px;
     }
 } */
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 450px){
-    .perfume{
-        font-size: 7px;
-    }
-    .img{
-        width:140px;
-        height:220px;
-    }
-
-    .flexbox{
-        width:100px;
-        height:180px;
-    }
-
-    .flower{
-        position: relative;
-        top:2px;
-        font-size: 6px;
-        line-height: 7px;
-    }
-
-    .gab{
-        font-size: 15px;
-        line-height: 17px;
-    }
-
-    .money{
-        position: relative;
-        top:10px;
-        font-size: 20px;
-    }
-
-    .button{
-        position: relative;
-        top:15px;
-        height: 20px;
-        width: 100px;
-    }
-}
